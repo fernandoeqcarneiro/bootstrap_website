@@ -8,3 +8,13 @@ footer{
 header ul .dropdown-menu{
     background-color: #480d15;
 }
+header nav div a img{
+    width: 95px;
+    height: 85px;
+    margin: -15px;
+} 
+footer div a img{
+    width: 95px;
+    height: 85px;
+    margin: -10px;
+}

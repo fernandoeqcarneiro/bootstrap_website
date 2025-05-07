@@ -5,3 +5,6 @@ footer{
     background-color: #49152c;
     list-style-type: none;
 }
+header ul .dropdown-menu{
+    background-color: #480d15;
+}

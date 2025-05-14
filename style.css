@@ -13,7 +13,14 @@ header nav div a img{
     height: 85px;
     margin: -15px;
 }
-
+main{
+    height: 70vh;
+}
+main section #Sobre{
+    justify-content: center;
+    align-items: center;
+    
+}
 footer div a img{
     width: 95px;
     height: 85px;

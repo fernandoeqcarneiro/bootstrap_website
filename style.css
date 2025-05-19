@@ -1,26 +1,23 @@
 header{
     background-color: #49152c;
 }
+
 footer{
     background-color: #49152c;
     list-style-type: none;
 }
+
 header ul .dropdown-menu{
     background-color: #480d15;
 }
+
 header nav div a img{
     width: 95px;
     height: 85px;
     margin: -15px;
 }
-main{
-    height: 70vh;
-}
-main section #Sobre{
-    justify-content: center;
-    align-items: center;
-    
-}
+
+
 footer div a img{
     width: 95px;
     height: 85px;

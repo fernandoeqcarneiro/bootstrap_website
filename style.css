@@ -1,10 +1,12 @@
 header{
     background-color: #49152c;
+    border-radius: 10px;
 }
 
 footer{
     background-color: #49152c;
     list-style-type: none;
+    border-radius: 10px;
 }
 
 header ul .dropdown-menu{
@@ -17,6 +19,11 @@ header nav div a img{
     margin: -15px;
 }
 
+main #Sobre img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
 
 footer div a img{
     width: 95px;

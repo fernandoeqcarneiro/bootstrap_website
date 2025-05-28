@@ -7,6 +7,7 @@ footer{
     background-color: #49152c;
     list-style-type: none;
     border-radius: 10px;
+    color: rgb(187, 187, 187);
 }
 
 header ul .dropdown-menu{
@@ -17,6 +18,10 @@ header nav div a img{
     width: 95px;
     height: 85px;
     margin: -15px;
+}
+
+main section #Sobre #Img-Sobre{
+    display: flex;
 }
 
 main #Sobre img{

@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     background-color: #49152c;
 }
@@ -18,4 +23,10 @@ footer div a img{
     width: 95px;
     height: 85px;
     margin: -15px;
+}
+
+.carousel-img {
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
 }

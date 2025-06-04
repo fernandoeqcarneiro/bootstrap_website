@@ -24,3 +24,9 @@ footer div a img{
     height: 85px;
     margin: -15px;
 }
+
+.carousel-img {
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+}

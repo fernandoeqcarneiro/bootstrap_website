@@ -20,23 +20,39 @@ header nav div a img{
     margin: -15px;
 }
 
-main section {
+#Sobre {
+    position: relative;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
 }
 
-main section .bg-image{
-    background-image: url();
-    filter: blur(8px);
-    background-position: center;
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("img/Cover - Img.jpeg");
     background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: 0;
+}
+canvas{
+    align-items: center;
+    z-index: 999 !important;
+    justify-content: center;
+}
+#Sobre .row {
+    position: relative;
+    z-index: 1;
 }
 
-main #Sobre img{
+#Sobre img {
     width: 150px;
     height: 150px;
     border-radius: 200px;
+    object-fit: cover;
 }
 
 footer div a img{

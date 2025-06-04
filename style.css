@@ -20,6 +20,12 @@ header nav div a img{
     margin: -15px;
 }
 
+.carousel-img {
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 #Sobre {
     position: relative;
     height: fit-content;
@@ -58,6 +64,7 @@ header nav div a img{
     color: white;
     text-align: center;
     padding-top: 50px;
+    justify-content: space-around;
     
 }
 

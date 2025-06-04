@@ -1,12 +1,13 @@
 header{
     background-color: #49152c;
-    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
 }
 
 footer{
     background-color: #49152c;
-    list-style-type: none;
-    border-radius: 10px;
+    list-style-type: none; 
     color: rgb(187, 187, 187);
 }
 
@@ -20,8 +21,14 @@ header nav div a img{
     margin: -15px;
 }
 
-.carousel-img {
-  height: 100vh;
+
+.card-img-top{
+    height: 50vh;
+    object-fit: cover;
+}
+
+.carousel-item img {
+  height: 80vh;
   object-fit: cover;
   overflow: hidden;
 }
